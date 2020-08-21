@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import AppHeader from './components/AppHeader';
-import Details from './components/Details';
+import Search from './components/Search/Search';
+import Details from './components/Details/Details';
 
 function App() {
   return (
     <div className="App">
-      <AppHeader></AppHeader>
+      <Search></Search>
       <Details></Details>
     </div>
   );
