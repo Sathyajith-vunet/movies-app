@@ -1,5 +1,6 @@
 import React from 'react';
-import "./Search.scss"
+import "./Search.scss";
+import axios from 'axios';
 
 class Search extends React.Component {
     constructor(props) {
