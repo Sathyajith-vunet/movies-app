@@ -3,7 +3,7 @@ import "./Image.scss"
 
 function Image() {
         return (
-            <div className="card">
+            <div className="card card-edit">
             </div>
         )
 }

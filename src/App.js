@@ -4,24 +4,46 @@ import Image from './components/Image/Image'
 import Search1 from './components/Search/Search1';
 import Details from './components/Details/Details';
 
-function App() {
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      id: '',
+      movieName: '',
+      background: ''
+    };
+    this.onSelect = this.onSelect.bind(this);
+  }
+
+  onSelect(background) {
+    // console.log(background);
+    this.setState({ background: background});
+    console.log(this.state.background);
+    // document.getElementsByClassName('App')[0].style.backgroundImage="url(" + background +")";
+  }
+
+  render(){
+    var divImage = {
+      backgroundImage : `url($this.state.background)` 
+    };
   return (
-    <div className="App">
-      <Search1 />
+    <div className="App" style={divImage}>
+      <Search1 onSelect={this.onSelect}/>
       <div className="container">
         <div className="row">
         <div className="col-md-3"></div>
           <div className="col-md-3">
             <Image></Image>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-4">
             <Details></Details>
           </div>
-          <div className="col-md-3"></div>
+          <div className="col-md-2"></div>
         </div>
       </div>
     </div>
   );
+  }
 }
 
 export default App;
