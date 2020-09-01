@@ -10,33 +10,41 @@ class App extends React.Component {
     this.state = {
       id: '',
       movieName: '',
-      background: ''
+      tagline: '',
+      description: '',
+      genre: '',
+      producers: '',
+      originalRelease: '',
+      runningTime: '',
+      boxOffice: '',
+      voteAvg: '',
+      background: '',
+      foreground: ''
     };
     this.onSelect = this.onSelect.bind(this);
   }
 
-  onSelect(background) {
-    // console.log(background);
-    this.setState({ background: background});
-    console.log(this.state.background);
+  onSelect(movies) {
+    console.log(movies);
+    this.setState({...movies});
     // document.getElementsByClassName('App')[0].style.backgroundImage="url(" + background +")";
   }
 
   render(){
     var divImage = {
-      backgroundImage : `url($this.state.background)` 
+      backgroundImage : "url(" + this.state.background + ")"
     };
   return (
-    <div className="App" style={divImage}>
+    <div className="App">
       <Search1 onSelect={this.onSelect}/>
       <div className="container">
         <div className="row">
         <div className="col-md-3"></div>
           <div className="col-md-3">
-            <Image></Image>
+            <Image data={this.state.foreground}></Image>
           </div>
           <div className="col-md-4">
-            <Details></Details>
+            <Details data={this.state}></Details>
           </div>
           <div className="col-md-2"></div>
         </div>

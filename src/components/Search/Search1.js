@@ -15,7 +15,7 @@ const movies = [
       "runningTime" : "140 mins",
       "boxOffice" : "$374,218,673",
       "voteAvg" : "7.7 / 10",
-      "background" : "/src/images/Batman2.jpg",
+      "background" :"/src/images/Batman2.jpg",
       "foreground" : "../../images/Batman1.jpeg"
   },
   {
@@ -210,7 +210,7 @@ const movies = [
       for(var i = 0;i<movies.length;i++){
         if(movies[i].movieName === suggestion.movieName){
           // console.log(movies[i].movieName);
-          this.props.onSelect(movies[i].background);
+          this.props.onSelect(movies[i]);
         }
       }
       return suggestion.movieName;
