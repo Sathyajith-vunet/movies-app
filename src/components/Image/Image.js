@@ -9,7 +9,7 @@ function Image(props) {
     if(props.data === '') return null;
     else{
         return (
-            <div className="card card-edit">
+            <div className="card-edit" style={cardImage}>
             </div>
         )
     }

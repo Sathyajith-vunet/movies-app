@@ -15,8 +15,8 @@ const movies = [
       "runningTime" : "140 mins",
       "boxOffice" : "$374,218,673",
       "voteAvg" : "7.7 / 10",
-      "background" :"/src/images/Batman2.jpg",
-      "foreground" : "../../images/Batman1.jpeg"
+      "background" :"./Batman2.jpg",
+      "foreground" : "./Batman1.jpeg"
   },
   {
       "id" : "2",
@@ -29,8 +29,8 @@ const movies = [
       "runningTime" : "152 mins",
       "boxOffice" : "$1,003,045,358",
       "voteAvg" : "9.0 / 10",
-      "background" : "",
-      "foreground" : ""
+      "background" : "./Dark_Knight_2.png",
+      "foreground" : "./Dark_Knight_1.jpg"
   },
   {
       "id" : "3",
@@ -43,8 +43,8 @@ const movies = [
       "runningTime" : "164 mins",
       "boxOffice" : "$1,081,124,605",
       "voteAvg" : "8.4 / 10",
-      "background" : "",
-      "foreground" : ""
+      "background" : "./Dark_Knight_Rises_2.jpg",
+      "foreground" : "./Dark_Knight_Rises_1.jpg"
   },
   {
     "id" : "4",
@@ -57,8 +57,8 @@ const movies = [
     "runningTime" : "148 mins",
     "boxOffice" : "$831,498,685",
     "voteAvg" : "8.8 / 10",
-    "background" : "",
-    "foreground" : ""
+    "background" : "./Inception_2.png",
+    "foreground" : "./Inception.webp"
   },
   {
     "id" : "5",
@@ -71,8 +71,8 @@ const movies = [
     "runningTime" : "169 mins",
     "boxOffice" : "$710,525,276",
     "voteAvg" : "8.6 / 10",
-    "background" : "",
-    "foreground" : ""
+    "background" : "./Interstellar_2.jpeg",
+    "foreground" : "./Interstellar_1.jpeg"
   },
   {
     "id" : "6",
@@ -85,8 +85,8 @@ const movies = [
     "runningTime" : "139 mins",
     "boxOffice" : "$103,996,122",
     "voteAvg" : "8.8 / 10",
-    "background" : "",
-    "foreground" : ""
+    "background" : "./Fight_Club_2.jpeg",
+    "foreground" : "./Fight_Club_1.jpg"
   },
   {
     "id" : "7",
@@ -99,8 +99,8 @@ const movies = [
     "runningTime" : "101 mins",
     "boxOffice" : "$86,081,711",
     "voteAvg" : "7.4 / 10",
-    "background" : "",
-    "foreground" : ""
+    "background" : "./John_Wick_2.jpg",
+    "foreground" : "./John_Wick_1.jpg"
   },
   {
     "id" : "8",
@@ -113,8 +113,8 @@ const movies = [
     "runningTime" : "106 mins",
     "boxOffice" : "$214,463,726",
     "voteAvg" : "6.8 / 10",
-    "background" : "",
-    "foreground" : ""
+    "background" : "./The_Fast_And_Furious_2.jpeg",
+    "foreground" : "./The_Fast_And_Furious_1.jpg"
   },
   {
     "id" : "9",
@@ -127,8 +127,8 @@ const movies = [
     "runningTime" : "107 mins",
     "boxOffice" : "$672,806,292",
     "voteAvg" : "8.1 / 10",
-    "background" : "",
-    "foreground" : ""
+    "background" : "./The_Sixth_Sense_2.webp",
+    "foreground" : "./The_Sixth_Sense_1.png"
   },
   {
     "id" : "10",
@@ -141,8 +141,8 @@ const movies = [
     "runningTime" : "152 mins",
     "boxOffice" : "$873,637,528",
     "voteAvg" : "6.4 / 10",
-    "background" : "",
-    "foreground" : ""
+    "background" : "./Batman_vs_Superman_2.jpg",
+    "foreground" : "./Batman_vs_Superman_1.jpg"
   }
 ];
    
